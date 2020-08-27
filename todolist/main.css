@@ -1,0 +1,41 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+form#todo-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    background-color: gray;
+    outline: cyan;
+    
+    
+}
+ul#todo-list{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    overflow: hidden;
+    max-width: 100%;
+}
+
+ul#todo-list li{
+    display: grid;
+    grid-row: auto;
+    align-items: center;
+    justify-content: center;
+    width: 30vh;
+    background-color: hotpink;
+    list-style: none;
+    border: solid black 2px;
+        text-align: center;
+
+}
+
+#todo-list{
+    transition: 0.3s;
+    transform: scale(0.95,1.10);
+
+}
