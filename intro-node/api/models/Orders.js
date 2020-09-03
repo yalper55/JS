@@ -6,4 +6,4 @@ const Orders = mongoose.model('Order',new Schema({
     user_id: String,
 }))
 
-module.exports = Orders
+module.exports = Orders 
